@@ -528,7 +528,7 @@ function customIncludes(arr, element) {
 
 	const a = arr.includes(element);
 
-	const b = arr.filter((el) => el === element).length;
+	const b = arr.filter(el => el.length);
 	console.log(b);
 
 	return a;
